@@ -7,6 +7,7 @@ export var ser5 = new Serie(5, "Sherlock", "BBC", 4, "Sherlock depicts consultin
 export var ser6 = new Serie(6, "A Very English Scandal", "BBC", 2, "A Very English Scandal is a fact-based three-part British television comedy-drama miniseries based on John Preston's book of the same name.", "https://www.bbc.co.uk/programmes/p065smy4", "https://i.imgur.com/D4y3DrQ.jpg");
 var serieTable = document.getElementById("serie");
 var promediosTable = document.getElementById("promedio");
+var mainBody = document.getElementById('body');
 var card = document.getElementById('cards');
 mostrarDatosSerie(ser);
 mostrarDatosSerie(ser2);

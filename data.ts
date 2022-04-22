@@ -28,6 +28,8 @@ export const ser6 = new Serie(6, "A Very English Scandal", "BBC", 2, "A Very Eng
 
 let serieTable: HTMLElement = document.getElementById("serie")!;
 let promediosTable: HTMLElement = document.getElementById("promedio")!;
+
+const mainBody : HTMLElement = document.getElementById('body')!;
 const card : HTMLElement = document.getElementById('cards')!;
 
 mostrarDatosSerie(ser);
@@ -92,3 +94,4 @@ function renderCardSerie(s: Serie) : void{
     card.appendChild(fila);   
 
 }
+
